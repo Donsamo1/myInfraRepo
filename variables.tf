@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "my-jenkins-security-group-2022" 
+    default     = "my-ec2-terraform-role" 
 }
 
 variable "tag_name" { 
