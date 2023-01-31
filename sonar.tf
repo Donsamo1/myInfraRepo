@@ -39,7 +39,7 @@ resource "aws_security_group" "security_sonar_group_2023" {
       ami           = "ami-08fdec01f5df9998f"
       key_name = "MyJenkinsKey"
       instance_type = "t2.micro"
-      vpc_security_group_ids = [aws_security_group.security_sonar_group_2022.id]
+      vpc_security_group_ids = [aws_security_group.security_sonar_group_2023.id]
 
       tags= {
         Name = "sonar_instance"
